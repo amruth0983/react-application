@@ -1,0 +1,59 @@
+.Modal {
+	position: fixed;
+	z-index: 500;
+	background-color: white;
+	width: 70%;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px black;
+	left: 15%;
+	top: 30%;
+	box-sizing: border-box;
+	transition: all 0.3s ease-out;
+	color:#000;
+	/* height: 50%; */
+}
+
+.Modal .blackBg {
+	background-color: #777777;
+	color: #ffffff;
+	padding: 16px;
+}
+
+.Modal .materialSec {
+	background-color: #ffffff;
+	color: #000000;
+	width: 350px;
+	height: 90px;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.Modal .materialInfo p {
+	margin: 10px !important;
+	padding: 0 !important;
+}
+
+.Modal .colorInfo {
+	width: 50px;
+	float: left;
+	padding: 10px;
+}
+
+.Modal .colorInfo p {
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding: 0 !important;
+}
+
+.Modal.errorModal div.Modal{
+	height: 20%;
+}
+
+
+@media (min-width: 600px) {
+	.Modal {
+		width: 500px;
+		left: calc(50% - 250px);
+	}
+}

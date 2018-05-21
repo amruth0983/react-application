@@ -1,0 +1,10 @@
+html {
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "adihaus-din-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #333333;
+  color: #ffffff;
+}

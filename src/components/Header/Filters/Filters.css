@@ -1,0 +1,31 @@
+.filters-container {
+	padding: 0 0px 10px 10px;
+	overflow: hidden;
+}
+
+.filters-container h4 {
+	margin: 0 0 10px 0;
+}
+
+.filters-container div {
+	width: 33%;
+	display: inline-flex;
+	padding: 3px 10px 0 0;
+}
+
+.filters-container div.filters-block {
+	padding: 0px 0 5px 0;
+	width: auto;
+	display: block;
+}
+
+.filters-container hr {
+	width: 97.5%;
+	margin-left: 0;
+}
+
+.filters-container div.sort-options {
+	float: right;
+	width: 65%;
+	padding-right: 0;
+}

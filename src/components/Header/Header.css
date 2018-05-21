@@ -1,0 +1,83 @@
+.Header {
+	background-color: #444444;
+	color: #ffffff;
+	font-size: 13px;
+	position: fixed;
+	width: 100%;
+	height: 155px;
+	z-index: 1;
+	border: 1px solid #000000;
+}
+
+.Header .basket-options {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Header div.basket-filter {
+	width: 120px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.Header div.basket-filter .SelectInput {
+	padding: 0;
+}
+
+.Header input {
+	width: 100%;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	height: 20px;
+	font-family: "adihaus-din-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+.Header .basket-search {
+	width: calc(100% - 220px);
+	position: fixed;
+	padding: 10px;
+	left: 139px;
+}
+
+.Header .basket-search input::-webkit-input-placeholder,
+.Header .basket-search input:-moz-placeholder,
+.Header .basket-search input:-ms-input-placeholder, {
+	font-family: "adihaus-din-regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Header .basket-search:before {
+	font-family: ds-icon !important;
+	content: "\E99C";
+	position: fixed;
+	left: .3125em;
+	top: 4.5%;
+	margin-top: -10px;
+	left: 46%;
+	margin-left: -14px;
+	color: #646464;
+	font-size: 1.55em;
+}
+
+.Header .basket-search span {
+	position: absolute;
+	right: 20px;
+	color: #646464;
+	bottom: 7px;
+	cursor: pointer;
+}
+
+.Header .Operations {
+	width: 50px;
+	padding: 10px;
+	position: fixed;
+	right: 0;
+}
+
+.Header .Operations span {
+	color: #bfbfbf;
+	cursor: pointer;
+}

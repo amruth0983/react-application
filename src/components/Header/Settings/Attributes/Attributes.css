@@ -1,0 +1,63 @@
+.Attributes {
+  border: 1px solid #000000;
+  padding: 0 10px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.Attributes ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Attributes ul li {
+  list-style: none;
+  font-size: 13px;
+  padding: 5px 0;
+}
+
+.Attributes ul.attributesList li input {
+  float: left;
+  cursor: pointer;
+}
+
+.lineBreakSec {
+  width: 50%;
+}
+
+.lineBreakSec Select {
+	display: inline-block;
+	border: 1px solid #fff;
+	padding: 1px 3px 3px 5px;
+	margin: 0;
+	font: inherit;
+	outline: none;
+	line-height: 1.2;
+	background: rgba(51,51,51,0.7);
+	-webkit-appearance: none;
+	border-radius: 2px;
+	color: #fff;
+	border-radius: 0 2px 0px 0;
+	font-size: 12px;
+	border-top-width: medium;
+	border-bottom: none;
+}
+
+.lineBreak:after {
+	content: ">";
+	position: absolute;
+	top: 3px;
+	right: 11px;
+	bottom: 0;
+	font-size: 15px;
+	padding: 0 9px;
+	background: #fff;
+	color: #000;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	pointer-events: none;
+	border-radius: 0 2px 2px 0;
+	height: 22px;
+	width: 2px;
+}

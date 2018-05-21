@@ -1,0 +1,40 @@
+.ds-icon {
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: ds-icon !important;
+	font-size: 1.83em;
+	vertical-align: middle;
+}
+.ds-icon--arrow-breadcrumb-down:before {
+	content: "\E90B";
+}
+.ds-icon--arrow-breadcrumb-left:before {
+	content: "\E90C";
+}
+.ds-icon--arrow-breadcrumb-right:before {
+	content: "\E90D";
+}
+.ds-icon--arrow-breadcrumb-up:before {
+	content: "\E90E";
+}
+.ds-icon--settings:before {
+	content: "\E99F";
+}
+.ds-icon--baskets:before {
+	content: "\E91F";
+}
+.ds-icon--sync:before {
+	content: "\E9AA";
+}
+.ds-icon--search:before {
+	content: "\E99C";
+}
+.ds-icon--close-small:before {
+	content: "\E92D";
+}

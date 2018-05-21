@@ -1,0 +1,123 @@
+.basketContainer {
+	cursor: pointer;
+	position: relative;
+	padding-top: 155px;
+	height: calc(100vh - 110px);
+}
+
+.basketContainer ul {
+	margin: 0;
+	padding: 0;
+	overflow-y: auto;
+	height: 100%;
+}
+
+.basketContainer li.basket {
+	padding: 0;		
+	margin: 0;
+	list-style: none;
+	border: 1px solid #000000;
+	border-bottom: none;
+}
+
+.basketContainer li.basket:last-child {
+	border-bottom: 1px solid #000;
+}
+
+.basketContainer li.basket .basket-section {
+	position: relative;
+	margin: 0;
+	padding: 15px 0;
+	font-size: 13px;
+}
+
+.basketContainer li.basket span.basket-name {
+	padding-left: 10px;
+	position: absolute;
+	top: 17.5px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 50%;
+}
+
+.basketContainer .basket .basketMaterials {
+	border-bottom: 1px solid #000000;
+	border-left: none;
+}
+
+.basketContainer .basket .basketMaterials li {
+	border: 1px solid #000000;
+	padding: 0;
+	margin: 0;
+	border-bottom: none;
+	clear: both;
+	display: block;
+}
+
+.basketContainer .basket .basketMaterials li:last-child {
+	border-bottom: none;
+}
+
+.basketContainer .basket .basketMaterials li p {
+	padding: 15px 50px 15px 10px;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	margin: 0;
+	font-size: 13px;
+	text-transform: capitalize;
+}
+
+.basketContainer .basket .basketMaterials ul p.noResult {
+	padding: 10px;
+	margin: 0 0 0 20px;
+}
+
+.basketContainer .basket hr {
+	margin: 0;
+}
+
+.basketContainer .basket li.materials:first-child {
+	border-top: 1px solid #000000;
+}
+
+.basketContainer .basket li.materials div.itemBlock{
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.basketContainer .basket li.materials .imageBlock {
+	width: 80px;
+	height: 80px;
+	float: left;
+	position: relative;
+}
+
+.basketContainer .basket li.materials .imageBlock img {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: auto;
+    alignment-baseline: middle;
+    width: 100%;
+}
+
+.basketContainer .basket li.materials .contentBlock {
+	float: left;
+	padding: 20px;
+	font-size: 13px;
+}
+
+.basketContainer li.basket.materials-loaded {
+	border-bottom: none;
+}
+
+.basketContainer li.basket.materials-loaded .basketMaterials li:last-child{
+	border-bottom: none;
+}
